@@ -1,14 +1,24 @@
 # bloomers
 
-This is the bloomers project.
+A command-line spell checker implemented using Bloom filters. It builds a Bloom filter from a dictionary file and checks if provided words are likely spelled correctly.
 
-# Building and installing
+## Usage
+
+After building, run the executable with a dictionary file:
+
+```sh
+./bloomers -f dictionary.txt word1 word2 word3
+```
+
+This will output which words are likely misspelled.
+
+## Building and installing
 
 See the [BUILDING](BUILDING.md) document.
 
-# Contributing
+## Hacking
 
-See the [CONTRIBUTING](CONTRIBUTING.md) document.
+See the [HACKING](HACKING.md) document.
 
 # Licensing
 
